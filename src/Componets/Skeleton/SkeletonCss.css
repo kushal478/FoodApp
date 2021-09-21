@@ -1,0 +1,268 @@
+#skel-card-paraline2{
+    width: 210px;
+}
+#skel-card-paraline3{
+    width: 280px;
+}
+#skel-search{
+  height: 50px;
+  width: 300px;
+  border-radius: 30px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #skel-card-paraline2{
+    width: 180px;
+    }
+    #skel-card-paraline3{
+        width: 240px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ======== Navbar ======== */
+.nav-links a{ 
+  text-decoration: none;
+}
+.cart {        
+  display: inline-flex;
+  position: relative;
+  flex-shrink: 0;
+  vertical-align: middle;  
+}
+.navbar-item{
+  align-items: center;
+}
+/* ======== Banner ======== */
+.top-banner{
+  height: 600px;
+  background-color:#fafafa;
+}
+#Explore-Menu {   
+   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.heading1{
+  color: #344767;
+  font-size: 4rem;
+  letter-spacing: 2px;
+  font-family: "Raleway",sans-serif;
+  font-style: italic;
+  font-weight: 800;
+}
+.heading{
+  color: #344767;
+  font-size: 3rem;
+  letter-spacing: 2px;
+  font-family: "Raleway" ,sans-serif;
+  font-style: italic;
+  font-weight: 800;
+  line-height: 1.3;
+  margin-bottom: 30px;
+}
+#heading-color{
+  color: #85B767;  
+}
+.para-01{
+  color: #000;
+  font-weight: 400;
+  font-size: 1rem;
+  font-family: "Raleway",sans-serif;
+  letter-spacing: 2px;
+  line-height: 1.625;
+  font-weight: 400;
+}
+/* ======== Order Food ======== */
+.Order-food-img{
+  height: 80px;
+  width: 90px;
+  background-color: #f6f6f6;
+}
+/* ======== Download app  ========== */
+/* .skel-phone-img{
+  width: 400px;
+  height: 674px;
+} */
+.skel-phone-img{
+    border-radius: 30px;
+}
+.skel-appstore-logo{
+    border-radius: 10px;
+  /* width: 200px;
+  height: 58px; */
+}
+.skel-playstore-logo{
+     border-radius: 10px;
+  /* width: 200px;
+  height: 85px; */
+}
+/* ========== want more ======= */
+.want-more{
+  background: #f6f6f6;
+  width: 100%;
+  left: 0;
+  padding: 100px 0; 
+  position: relative;
+}
+.bonus-card{
+  position: relative;
+  background: #fff;
+  box-shadow: 5px 5px 8px 2px #dfdede;
+  border-radius: 20px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  height: 350px;
+  padding: 10px;
+  text-align: center;
+}
+.benifit-icon {
+  position: absolute;
+  top: -50px;
+  left: 35%;
+}
+.benifit-icon img{
+  width: 100px;
+}
+.benifit-desc {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  width: 100%;
+  padding: 0 15px;
+  line-height: 2;
+  color: #676767;
+}
+.benifit-desc h4{
+  color: #000;
+  font-weight: 600;
+  font-size: 2rem;
+}
+.benifit-desc p{
+  font-size: 1rem;
+}
+#para-id{
+  font-size: 1.5rem;
+  font-family: "Raleway",sans-serif;
+  letter-spacing: 2px;  
+}
+.want-more-section{
+  background: #f6f6f6;
+  width: 100%;
+  left: 0;
+  padding: 100px 0;
+}
+/* =========== Footer ========== */
+
+.footer-img{
+  width: 150px;
+  height: 70px;
+}
+.footer-heading1{
+  color: #FFFFFF;
+  text-align: start;
+  line-height: 1.625;
+  font-weight: 400;
+}
+.footer-link{
+    line-height:2;
+}
+.footer-heading2{
+  color: #FFF3F3;
+  text-align: center;
+  font-family: "Montserrat",sans-serif!important;
+}
+.footer-list{
+  text-align: center;
+  list-style-type:none;
+  color: #FFFFFF;
+  font-size: 14px;
+}
+/* ======================== */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .logo-img{
+    width: 150px;
+    height: 70px;
+  }
+  .bonus-card{
+    margin-top: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .drawer{
+    color: #abd467!important;    
+  } 
+   .toggel-btn{     
+    padding-top: 16px;
+    padding-right: 16px;
+    padding-bottom: 15px;
+    background-color: #fff;    
+  }   
+  .heading1{
+    font-size: 2rem;
+  }
+  .heading{
+    font-size: 2rem;
+  }
+  .appstore-logo{
+    width: 170px;
+    height: 42px;
+  }
+  .playstore-logo{
+    width: 170px;
+    height: 60px;
+  } 
+  .footer-list{
+    text-align: start; 
+  }
+  .top-banner{  
+    padding-top: 230px;
+    background-color: #fafafa;
+    padding-bottom: 50px;
+  }
+  .footer-heading2{
+    text-align: start;  
+  }
+  .hide-nav{
+    display: none;
+  } 
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  #search-input{
+  width: 250px;
+}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .button-menu-mobile{
+  display:none;
+  height: 200px;
+  background-color: black;
+  } 
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {...} */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .max-width1{
+    max-width: 1320px;
+  }
+} 
+
